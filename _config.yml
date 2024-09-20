@@ -3,3 +3,5 @@ theme: "minima" # You can change this to another Jekyll theme
 
 # Markdown processing
 markdown: kramdown
+
+permalink: /:categories/:year/:month/:day/:title/
