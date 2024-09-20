@@ -1,5 +1,5 @@
 # Theme settings
-theme: "minima" # You can change this to another Jekyll theme
+theme: "Academic" # You can change this to another Jekyll theme
 
 # Markdown processing
 markdown: kramdown
