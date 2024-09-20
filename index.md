@@ -11,7 +11,7 @@ This is a brief introduction to my website. Here, you can find information about
 ## Latest Blog Posts
 
 {% for post in site.posts %}
-  * [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
+  * [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
 
 ## About Me
