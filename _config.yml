@@ -1,5 +1,7 @@
 # Theme settings
-theme: "Academic" # You can change this to another Jekyll theme
+# theme: "Academic" # You can change this to another Jekyll theme
+
+remote_theme: "academic/academic"
 
 # Markdown processing
 markdown: kramdown
