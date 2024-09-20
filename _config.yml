@@ -5,3 +5,5 @@ theme: "minima" # You can change this to another Jekyll theme
 markdown: kramdown
 
 permalink: /:categories/:year/:month/:day/:title/
+
+baseurl: "/Pranalyze"
