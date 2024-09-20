@@ -1,0 +1,60 @@
+# Basic site settings
+title: "Pranay Yadav"
+description: "Hi, I'm Pranay, a passionate tech enthusiast specializing in machine learning, deep learning, NLP, and Python, constantly exploring innovative solutions in the world of AI and data science."
+url: "https://Pranay27sy.github.io" # Your site URL
+
+# Author info
+author:
+  name: "Pranay"
+  email: "pranay99yadav@gmail.com"
+  bio: "Hi, I'm Pranay, a passionate tech enthusiast specializing in machine learning, deep learning, NLP, and Python, constantly exploring innovative solutions in the world of AI and data science."
+
+# Theme settings
+theme: "minima" # You can change this to another Jekyll theme
+
+# Site navigation (if your theme supports it)
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "About"
+    url: "/about/"
+
+# Markdown processing
+markdown: kramdown
+
+# Permalinks
+permalink: /:categories/:year/:month/:day/:title/
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Plugins
+plugins:
+  - jekyll-feed # RSS feed for your site
+  - jekyll-seo-tag # SEO optimization
+  - jekyll-sitemap # Generate a sitemap
+  - jekyll-paginate # Pagination plugin
+
+# Social media links (if your theme supports it)
+social:
+  kaggle: https://www.kaggle.com/pranay27sy
+  github: https://github.com/Pranay27sy
+  linkedin: https://www.linkedin.com/in/pranay27sy/
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - node_modules
+
+# Include additional files (optional)
+include:
+  - _pages
+
+# Google Analytics (replace with your tracking ID)
+google_analytics: G-HL8SL8QQ9F
