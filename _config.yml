@@ -1,5 +1,5 @@
 # Theme settings
-theme: "Architect" # You can change this to another Jekyll theme
+theme: "jekyll-theme-Architect" # You can change this to another Jekyll theme
 
 # Markdown processing
 markdown: kramdown
