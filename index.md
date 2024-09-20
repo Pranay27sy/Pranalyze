@@ -10,13 +10,13 @@ This is a brief introduction to my website. Here, you can find information about
 
 ## Latest Blog Posts
 
-{% for post in site.posts %}
+{% for post in site.page %}
   * [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
 
 ## About Me
 
-I am [Pranay Yadav](https://pranay27sy.github.io/Pranalyze/) and I enjoy [machine learning]. This site serves as a platform to share my thoughts and projects.
+I am [Pranay Yadav](https://pranay27sy.github.io/Pranalyze/) and I enjoy machine learning. This site serves as a platform to share my thoughts and projects.
 
 ## Connect with Me
 
